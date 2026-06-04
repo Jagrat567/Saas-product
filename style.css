@@ -191,3 +191,47 @@ footer{
 
     }
 }
+
+@media screen  and (max-width:823px){
+    *{
+        font-size: 10px;
+    }
+
+    h1,h2{
+        font-size: 14px;
+    }
+    .features_h2{
+        font-size: 20px;
+    }
+    .features_h1{
+        font-size: 20px;
+    }
+    .pricing_h1{
+        font-size: 20px;
+    }
+    .hero_h1{
+        font-size: 20px;
+    }
+    .cards{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .works{
+        flex-direction: column;
+    }
+    .features{
+        row-gap: 6vw;
+    }
+    .works{
+        row-gap: 2rem;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    .lower_pricing{
+        flex-direction: column;
+    }
+    .pricing{
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+}
